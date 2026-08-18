@@ -1,3 +1,5 @@
+![Motion Banner](assets/motion-banner.gif)
+
 # Planejamento: site institucional WordPress para geração de contatos
 
 > **Status:** planejamento privado. Não representa site entregue nem utiliza identidade de cliente.
