@@ -2,13 +2,14 @@
 
 > **Demo de portfólio independente.** Não representa trabalho contratado, dados de cliente, integração produtiva ou resultado comercial.
 
-Demo de site institucional com serviços, áreas atendidas e formulário com consentimento.
+Demo de site institucional com serviços demonstrativos e formulário de solicitação. A interface valida os campos no navegador, exige consentimento e não transmite, armazena ou exibe os dados preenchidos após a confirmação.
 
 ## Funcionalidades demonstradas
 
-- Páginas e serviços institucionais demonstrativos.
-- Cobertura geográfica ilustrativa.
-- Consentimento obrigatório para solicitação local.
+- Serviços e cobertura ilustrativos, identificados como conteúdo de demonstração.
+- Formulário com rótulos, foco visível, validação acessível e consentimento obrigatório.
+- Campo honeypot invisível para reduzir envios automatizados simples.
+- Tela de confirmação local sem integração, envio ou persistência de dados.
 
 ## Executar e revisar
 
@@ -17,7 +18,7 @@ npm test
 npm run review
 ```
 
-Os testes cobrem a lógica central da demo. A revisão estática confere os arquivos obrigatórios, a identificação de demo e a ausência de arquivos de ambiente.
+Os testes cobrem normalização, consentimento, e-mail, seleção de serviço e rejeição pelo honeypot. A revisão estática confere os arquivos obrigatórios, a identificação de demo, a ausência de arquivos de ambiente, a ausência de execução dinâmica e a ausência de chamadas externas.
 
 ## Limites
 
