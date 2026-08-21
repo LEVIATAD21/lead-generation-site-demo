@@ -1,0 +1,1 @@
+import assert from 'node:assert/strict'; import { validateRequest } from './app.mjs'; assert.equal(validateRequest({name:'Lia',email:'lia@demo.dev',consent:'on'}),true); assert.equal(validateRequest({name:'Lia',email:'lia@demo.dev'}),false); console.log('lead-generation-site-demo: testes aprovados');

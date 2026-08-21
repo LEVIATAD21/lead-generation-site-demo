@@ -1,23 +1,24 @@
-![Motion Banner](assets/motion-banner.gif)
+# Site Institucional de Geração de Contatos
 
-# Planejamento: site institucional WordPress para geração de contatos
+> **Demo de portfólio independente.** Não representa trabalho contratado, dados de cliente, integração produtiva ou resultado comercial.
 
-> **Status:** planejamento privado. Não representa site entregue nem utiliza identidade de cliente.
+Demo de site institucional com serviços, áreas atendidas e formulário com consentimento.
 
-## Objetivo
+## Funcionalidades demonstradas
 
-Planejar um site institucional em WordPress voltado a solicitações de orçamento e contatos comerciais.
+- Páginas e serviços institucionais demonstrativos.
+- Cobertura geográfica ilustrativa.
+- Consentimento obrigatório para solicitação local.
 
-## Estrutura proposta
+## Executar e revisar
 
-| Página | Finalidade |
-|---|---|
-| Inicial | Proposta de valor, serviços e chamada para orçamento. |
-| Serviços | Páginas individuais para serviços prioritários. |
-| Sobre | Contexto, diferenciais e prova institucional fornecida pelo proprietário. |
-| Áreas atendidas | Cobertura geográfica e contatos locais. |
-| Contato | Formulário, telefone clicável e consentimento de dados. |
+```bash
+npm test
+npm run review
+```
 
-## Critérios de aceite
+Os testes cobrem a lógica central da demo. A revisão estática confere os arquivos obrigatórios, a identificação de demo e a ausência de arquivos de ambiente.
 
-O site deve ser responsivo, ter formulários testados, páginas otimizadas para carregamento e metadados básicos revisáveis. Domínio, hospedagem e contas analíticas permanecem do proprietário.
+## Limites
+
+Dados, contatos e números apresentados pela interface são estritamente ilustrativos. Integrações, pagamento, hospedagem, banco de dados e dados de terceiros exigem escopo e autorização próprios.
